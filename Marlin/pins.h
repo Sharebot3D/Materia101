@@ -582,7 +582,9 @@
   #else
     #define FAN_PIN            4 // IO pin. Buffer needed
     #define FAN_PIN2           5 // IO pin. Buffer needed
-    #define FAN_TO_FAN2          // If enabled FAN_PIN2 acts exactly like FAN_PIN
+    #ifndef CFG_MATERIA101
+      #define FAN_TO_FAN2          // If enabled FAN_PIN2 acts exactly like FAN_PIN
+    #endif
   #endif
 
   #if MOTHERBOARD == 77
