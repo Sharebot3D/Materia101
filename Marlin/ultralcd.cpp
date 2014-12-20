@@ -270,7 +270,9 @@ static void lcd_sdcard_stop()
 
     enquecommand_P((PSTR("G0 Z200 F1000")));
     enquecommand_P((PSTR("G28 X Y"))); // move all axis home
-    enquecommand_P((PSTR("M106 S0")));
+    // There's room only for 3 commands
+    //enquecommand_P((PSTR("M106 S0")));
+    fanSpeed = 0;
 
     if(SD_FINISHED_STEPPERRELEASE)
     {
