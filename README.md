@@ -1,3 +1,11 @@
+MATERIA101
+==========
+
+Files and firmware for Materia101
+
+Materia101 is a open source project for a desktop 3D printer, developed in collaboration between Arduino and ShareBot.
+Materia101 is a derivated of the Kiwi3D project, developed by Andrea Radaelli, with the aim of creating a 3D printer suitable for home, the FabLab and teaching.
+
 ==========================
 Marlin 3D Printer Firmware
 FOR Arduino MATERIA 101
@@ -342,7 +350,5 @@ and then lifted when traveling from first to second and second to third point by
 All values are in mm as usual. 
 
 That's it.. enjoy never having to calibrate your Z endstop neither leveling your bed by hand anymore ;-)
-
-
 
 
