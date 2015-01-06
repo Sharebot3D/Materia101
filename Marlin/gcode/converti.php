@@ -3,7 +3,7 @@
 $names=Array( "SharebotNG_LevelPlate_Auto.gcode",
               "SharebotNG_FilamentChange_L.gcode",
               "SharebotNG_FilamentChange_R.gcode",
-              "SharebotNG_LevelPlate_Man.gcode",
+              "M101_LevelPlate_Man.gcode",
               "SharebotNG_Nozzles.gcode",
               "SharebotNG_DualExtrusionCalibration.gcode",
               "SharebotNG_MovePlateDown.gcode" );
